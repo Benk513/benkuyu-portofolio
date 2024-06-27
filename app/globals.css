@@ -6,7 +6,7 @@
 
 @layer base{
   body{
-    @apply font-primary;
+    @apply font-primary bg-primary text-white leading-loose;
   }
 }
   
