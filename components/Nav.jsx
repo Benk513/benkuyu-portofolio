@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 
 
 // components
+import Services from "@/app/services/page";
 
-import Services
+
 const links = [
   
     {
