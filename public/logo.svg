@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600.59 111.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: .33em;
+      }
+
+      .cls-5 {
+        fill: #3444bd;
+      }
+
+      .cls-6 {
+        letter-spacing: .34em;
+      }
+
+      .cls-7 {
+        letter-spacing: .34em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #0074d8;
+      }
+
+      .cls-10 {
+        letter-spacing: .35em;
+      }
+
+      .cls-3 {
+        font-family: Montserrat-Medium, Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      .cls-11 {
+        letter-spacing: .34em;
+      }
+
+      .cls-12 {
+        letter-spacing: .35em;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-14 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-size: 70px;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="13.19" y1="59.5" x2="49.55" y2="80.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0046b0"/>
+      <stop offset="1" stop-color="#0074d8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="182.84" y1="56.81" x2="142.77" y2="22.43" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-14" transform="translate(213.84 63.95)"><tspan class="cls-2" x="0" y="0">BEN</tspan><tspan class="cls-5" x="157.29" y="0"> </tspan><tspan class="cls-8" x="177.66" y="0">KUY</tspan><tspan class="cls-9" x="331.73" y="0">U</tspan></text>
+      <text class="cls-3" transform="translate(216.6 105.07)"><tspan class="cls-10" x="0" y="0">D</tspan><tspan class="cls-6" x="28.22" y="0">E</tspan><tspan class="cls-7" x="52.46" y="0">V</tspan><tspan class="cls-10" x="77.59" y="0">E</tspan><tspan class="cls-11" x="102.07" y="0">L</tspan><tspan class="cls-10" x="124.42" y="0">O</tspan><tspan class="cls-6" x="152.98" y="0">PP</tspan><tspan class="cls-10" x="203.95" y="0">EUR </tspan><tspan class="cls-4" x="296.52" y="0">W</tspan><tspan class="cls-12" x="331.58" y="0">EB</tspan></text>
+      <g>
+        <polygon class="cls-2" points="101.9 0 126.64 0 93.33 108.5 67.93 108.5 101.9 0"/>
+        <polygon class="cls-9" points="62 10.22 62 35.29 3.63 67.28 0 64.31 0 43.53 62 10.22"/>
+        <polygon class="cls-13" points="25.89 54.53 60.84 73.21 60.84 99.59 3.13 66.95 25.89 54.53"/>
+        <polygon class="cls-9" points="132.24 73.54 132.24 99.59 194.57 64.97 194.57 43.86 190.94 42.21 132.24 73.54"/>
+        <polygon class="cls-1" points="132.24 10.22 132.24 34.96 168.39 54.25 190.94 42.21 132.24 10.22"/>
+      </g>
+    </g>
+  </g>
+</svg>
