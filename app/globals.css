@@ -19,7 +19,12 @@
     @apply text-[15px] lg:text-[30px] leading-[1.1] font-semibold;
   }
   
-
+.text-outline{
+  -webkit-text-stroke: 1px #fff;
+}
+.text-outline-hover {
+  -webkit-text-stroke: 1px #00ff99;
+}
 
 
 

@@ -22,12 +22,13 @@ const Photo = () => {
                   }}
                   className='w-[298px] h-[298px] lg:w-[498px]  lg:h-[498px] mix-blend-lighten absolute'>
                   <Image
-                      src="/benkuyu-portofolio/logo.svg"
+                      src="/images/ben-kuyu.jpg"
                       priority
                       quality={100}
                       fill
+                       
                       alt='ben kuyu le developpeur web congolais.'
-                  className='object-contain'/> 
+                  className='object-cover rounded-full  p-6 '/> 
               </motion.div>
 
 
