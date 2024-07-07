@@ -12,6 +12,7 @@ import { BsArrowUpRight, BsGithub } from "react-icons/bs";
 import { TooltipContent , Tooltip, TooltipProvider,TooltipTrigger } from "@/components/ui/tooltip";
 
 import Image from "next/image";
+import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
   {
@@ -20,7 +21,7 @@ const projects = [
   title: "project 1",
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias illum maxime, magnam nesciunt laborum voluptas consectetur culpa vel corrupti dolorum odio magni suscipit eum et obcaecati dolor laboriosam quod.",
   stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-  image: '/',
+  image: '/images/food.png',
   live: "",
   github:"",
 
@@ -31,11 +32,22 @@ const projects = [
   title: "project 2",
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias illum maxime, magnam nesciunt laborum voluptas consectetur culpa vel corrupti dolorum odio magni suscipit eum et obcaecati dolor laboriosam quod.",
   stack: [{ name: "Next.JS 14" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-  image: '/',
+  image: '/images/drink.jpg',
   live: "",
   github:"",
 
-}
+},
+{
+  num:'03',
+  category: 'fullstack',
+  title: "project 3",
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias illum maxime, magnam nesciunt laborum voluptas consectetur culpa vel corrupti dolorum odio magni suscipit eum et obcaecati dolor laboriosam quod.",
+  stack: [{ name: "Next.JS 14" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+  image: '/images/deliver.jpg',
+  live: "",
+  github:"",
+
+},
 ]
  
 const Work = () => {
@@ -54,7 +66,7 @@ const Work = () => {
 
 
   return (
-    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-[80vh] flex flex-col justify-center py-12 lg:px-0">
+    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 , transition:{delay:2.4, duration:0.4, ease:"easeIn"}}} className="min-h-[80vh] flex flex-col justify-center py-12 lg:px-0">
       
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-[30px]">
@@ -121,15 +133,23 @@ const Work = () => {
               onSlideChange={handleSlideChange}>
               {projects.map((project, index) => {
                 return <SwiperSlide key={index} className="w-full">
-                  <div className="h-[260px] lg:h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                  <div className="h-[200px] lg:h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                     
                     {/* overlay */}
                     <div></div>
                     {/* Image */}
-                    <div></div>
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={project.image}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
                     
                 </div></SwiperSlide>
               })}
+              {/* slider buttons */}
+              <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[40px] flex justify-center items-center transition-all"/>
             </Swiper>
           </div>
         </div>
